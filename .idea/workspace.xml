@@ -2,23 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d11ebc18-7160-44db-bf80-3af3a7566ea4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/theShop.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/bin/www" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/public/stylesheets/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/routes/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/routes/users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/views/error.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/views/index.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/views/layout.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vjxchvkjxch.txt" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/routes/details.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/routes/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/back/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/routes/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/routes/users.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/views/error.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/views/index.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/views/layout.pug" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +20,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1fuQeoau2yLW0rDFzVtKsGuKzLf" />
@@ -34,13 +33,19 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.16.3" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/back/package.json" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/back/routes" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\work\theShop\back\routes" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -64,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597065595532</updated>
-      <workItem from="1597065596596" duration="1565000" />
+      <workItem from="1597065596596" duration="6986000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1597065649284</created>
@@ -73,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597065649284</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="created back folder and install express">
+      <created>1597067209574</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597067209574</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,6 +104,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="created back folder and install express" />
+    <option name="LAST_COMMIT_MESSAGE" value="created back folder and install express" />
   </component>
 </project>
